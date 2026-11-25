@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.whatsable/whatsapp-mcp",
+  "title": "Whatsable WhatsApp MCP",
+  "description": "Hosted WhatsApp MCP server on the official WhatsApp Business API. Free to start.",
+  "version": "1.0.0",
+  "websiteUrl": "https://whatsable.app/whatsapp-mcp?utm_source=mcp_registry",
+  "repository": {
+    "url": "https://github.com/Whatsable/whatsapp-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.whatsable.app/mcp"
+    }
+  ]
+}
